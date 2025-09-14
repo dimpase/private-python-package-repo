@@ -69,7 +69,7 @@ mkdir ~/local_pypi_packages
 Launch the server to start serving packages from the specified directory. This will listen on port 8080 by default:
 
 ```bash
-pypi-server -p 8080 ~/local_pypi_packages
+pypi-server run -p 8080 ~/local_pypi_packages
 ```
 
 This command starts a local HTTP server at http://localhost:8080.
